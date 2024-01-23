@@ -14,6 +14,7 @@
         .nav {  
             text-align: center; /* 居中导航栏 */  
             justify-content: center; /* 在这里添加一个属性以水平居中导航栏 */  
+            margin-bottom: 20px; /* 添加一些底部边距，以便与标题对齐 */  
         }  
         .nav li {  
             display: inline-block;  
@@ -25,7 +26,7 @@
         img {  
             width: 300px; /* 将图片宽度设置为300像素，适当放大图片 */  
             height: auto; /* 保持图片的原始纵横比 */  
-            margin-bottom: 20px; /* 添加一些底部边距，以便与标题对齐 */  
+            display: block; /* 使图片显示为块级元素，这样它的顶部和底部边距会正常工作 */  
         }  
     </style>  
 </head>  
