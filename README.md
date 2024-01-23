@@ -20,7 +20,6 @@
     </ul>  
 </body>  
 <html>
-<!DOCTYPE html>  
 <html>  
 <head>  
     <style>  
@@ -48,6 +47,12 @@
 <body>  
     <div class="container">  
         <h1>My Process</h1>  
+<img src="https://i.postimg.cc/wMqXjhBZ/2023-03-28-09-46-20.png" alt="alternatetext">  
+    </div>  
+</body>  
+</html>
+
+        
         <img src="https://i.postimg.cc/wMqXjhBZ/2023-03-28-09-46-20.png" alt="alternatetext">  
     </div>  
 </body>  
