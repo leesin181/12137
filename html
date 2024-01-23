@@ -1,7 +1,19 @@
+
+html
+<!DOCTYPE html>  
+<html>  
 <head>  
     <style>  
         body {  
             background-color: #FAEBD7; /* 淡黄色背景 */  
+            margin: 0;  
+            padding: 0;  
+        }  
+        .container {  
+            display: flex;  
+            justify-content: center;  
+            align-items: center;  
+            height: 100vh; /* 使容器占据整个视口高度 */  
         }  
         .nav {  
             text-align: center; /* 居中导航栏 */  
@@ -10,27 +22,24 @@
             display: inline-block;  
             margin: 0 10px;  
         }  
+        h1 {  
+            margin: 0; /* 去掉标题的默认边距 */  
+        }  
+        img {  
+            width: 200px; /* 设置图片宽度为200像素 */  
+            height: auto; /* 保持图片的原始纵横比 */  
+        }  
     </style>  
-  
+</head>  
 <body>  
-    <ul class="nav">  
-        <li><a href="https://leesin181.github.io/12139/">page1</a></li>  
-        <li><a href="https://leesin181.github.io/121310/">page2</a></li>  
-        <li><a href="https://leesin181.github.io/12137/">page3</a></li>  
-    </ul>  
-</body>  
-<html>
-<html>  
-<body>  
-<style>  
-    h1 {  
-        text-align: center; /* 文字居中 */  
-    }  
-    img {  
-        transform: scale(5); /* 图片放大5倍 */  
-    }  
-</style>  
-<h1>My Process</h1>  
-<img src="https://i.postimg.cc/wMqXjhBZ/2023-03-28-09-46-20.png" alt="alternatetext">  
+    <div class="container">  
+        <ul class="nav">  
+            <li><a href="https://leesin181.github.io/12139/">page1</a></li>  
+            <li><a href="https://leesin181.github.io/121310/">page2</a></li>  
+            <li><a href="https://leesin181.github.io/12137/">page3</a></li>  
+        </ul>  
+    </div>  
+    <h1>My Process</h1>  
+    <img src="https://i.postimg.cc/wMqXjhBZ/2023-03-28-09-46-20.png" alt="alternatetext">  
 </body>  
 </html>
