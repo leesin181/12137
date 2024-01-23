@@ -1,4 +1,3 @@
-
 <head>  
     <style>  
         body {  
@@ -14,7 +13,7 @@
         }  
         .nav {  
             text-align: center; /* 居中导航栏 */  
-            margin-bottom: 20px; /* 添加一些底部边距，以便图片和标题有足够的空间 */  
+            justify-content: center; /* 在这里添加一个属性以水平居中导航栏 */  
         }  
         .nav li {  
             display: inline-block;  
@@ -41,4 +40,3 @@
         <img src="https://i.postimg.cc/wMqXjhBZ/2023-03-28-09-46-20.png" alt="alternatetext">  
     </div>  
 </body>  
-</html>
