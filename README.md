@@ -10,7 +10,15 @@
         .nav li {  
             display: inline-block;  
             margin: 0 10px;  
-        }  
+        }
+        footer {  
+        text-align: center; /* 居中页脚 */  
+        font-size: 14px; /* 适当放小字体大小 */  
+        position: fixed; /* 固定位置 */  
+        bottom: 0; /* 位于底部 */  
+        width: 100%; /* 宽度为全屏 */  
+        line-height: 20px; /* 设置行高以控制字体垂直居中 */  
+    }  
     </style>  
 </head>  
 <body>  
